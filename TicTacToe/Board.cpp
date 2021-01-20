@@ -20,7 +20,7 @@ void Board::printBoard(int xAxis, int yAxis)
 
 	//print x-axis
 	std::cout << "		";
-	std::cout << " |";
+	std::cout << "  |";
 	for (int i = 1; i <= xAxis; i++)
 	{
 		if (i < 10)
